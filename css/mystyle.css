@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  font-family: "Karla", sans-serif;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.section-price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 45rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem;
+}
+.community {
+  grid-column: 1 / -1;
+  padding: 2.5rem;
+  background-color: #fff;
+}
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: hsl(179, 62%, 43%);
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.color-yellow {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+.color-light-grayish {
+  color: hsl(204, 43%, 93%);
+}
+
+.description {
+  font-size: 1.2rem;
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.monthly-sub {
+  background-color: hsl(179, 62%, 43%);
+  padding: 2.5rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.price {
+  color: hsl(204, 43%, 93%);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.month {
+  color: hsl(204, 43%, 93%);
+  opacity: 0.7;
+  font-size: 1.2rem;
+}
+.price-info {
+  color: hsl(204, 43%, 93%);
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  padding: 1rem 5.5rem;
+  border-radius: 0.5rem;
+  color: hsl(204, 43%, 93%);
+  font-size: 1.2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all ease 0.5;
+}
+
+.btn:active {
+  background-color: hsla(71, 88%, 36%, 0.774);
+}
+
+.why-us {
+  padding: 2.5rem;
+  background-color: hsl(179, 62%, 43%);
+  opacity: 0.7;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.list-item {
+  color: hsl(204, 43%, 93%);
+  opacity: 0.7;
+}
